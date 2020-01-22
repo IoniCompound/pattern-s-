@@ -35,11 +35,11 @@ strokeWeight(4);
 ellipse(400, 400, 400, 400);
 
 translate(400, 400);
-float r = PI/12;
+float r = PI/16;
 int ix = 0;
-while (ix < 24) {
+while (ix < 32) {
  rotate(r);
-fill(174,232,251,55);
+fill(174,232,251,19);
  ellipse(200, 0, 200, 200);
  ix = ix + 1;
 }  
